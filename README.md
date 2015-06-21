@@ -1,6 +1,16 @@
 Build system for Windows 10 App Demos
 ============
+This project makes it easy to create a Windows Hosted Web Application. This build system is based off of the gulp-starter project.  The additions allow for easy testing and side loading of a Universal Windows Platform application that points at a local development server. The addition of browserify provides a powerful set of developer tools such as live-code refresh, and remote debugging.
 
+Eventhough there is a lot of power with these tools, you can simply add HTML, CSS, and JS to the src folder.
+```
+\--root
+   \--CSS  - Create plain old CSS, or use [SASS](http://sass-lang.com/)
+   \--HTML - Create plain old HTML, or use []()
+   \--IMG  - Put your images in here, there are basic images included for Windows Universal Platform App
+   \--JS   - Create plain old JavaScript files here, or use JSX
+   \--MISC - Put any random files you want copied over in here
+```
 Starter Gulp + Browserify project + Appx Tools
 
 Includes the following tools, tasks, and workflows:
